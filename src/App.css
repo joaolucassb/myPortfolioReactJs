@@ -490,7 +490,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
+    gap: 10px;
 }
 
 .contact--link > a {
@@ -623,11 +623,11 @@ h3 {
       flex-wrap: nowrap;
       padding-top: 70px;
       padding-bottom: 70px;
-      gap: 10px;
+      gap: 5px;
       overflow: hidden;
       overflow-x: auto;
       height: 100%;
-      width: 100vw;
+      width: 100%;
     }
 
     .skills--section--card--content {
@@ -680,7 +680,7 @@ h3 {
         max-width: 100% ;
       }
       .about--section {
-        text-align: center;
+        text-align: justify;
         align-items: center;
         justify-content: center;
         gap: 20px;
@@ -744,9 +744,15 @@ h3 {
   }
   
   @media screen and (max-width: 1200px) {
+    .navbar {
+      justify-content: center;
+      align-items: center;
+    }
+
     .nav__hamburger {
       display: flex;
       z-index: 200;
+      top: 35px;
     }
     .navbar--items {
       display: flex;
