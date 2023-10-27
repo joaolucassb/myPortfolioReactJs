@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 
 function Navbar() {
-    const {navActive, setNavActive} = useState(false);
+    const [navActive, setNavActive] = useState(false);
 
     const toogleNav = () => {
         setNavActive(!navActive)
@@ -34,8 +34,9 @@ function Navbar() {
 
     return (
         <nav className={`navbar ${navActive ? 'active' : ''}`}>
-            <div>
-                <img src="./img/logo.svg" alt="Logoipsum" />
+            <div className='logo--container'>
+                <img src="./img/logo.png" alt="Logo" />
+                <h3>Dev João Lucas</h3>
             </div>
             <a className={`nav__hamburger ${navActive ? 'active' : ''}`} onClick={toogleNav}>
                 <span className='nav__hamburger__line'></span>
@@ -59,8 +60,8 @@ function Navbar() {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to='MyPortfolio'
-                        className='navbar--content'>Portfolio</Link>
+                        to='mySkills'
+                        className='navbar--content'>Skills</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu} activeClass='navbar--active--content'
@@ -68,8 +69,17 @@ function Navbar() {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to='AboutMe'
-                        className='navbar--content'>About Me</Link>
+                        to='aboutMe'
+                        className='navbar--content'>Sobre</Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu} activeClass='navbar--active--content'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        to='myPortfolio'
+                        className='navbar--content'>Portfolio</Link>
                     </li>
                 </ul>
             </div>
@@ -80,11 +90,11 @@ function Navbar() {
             smooth={true}
             offset={-70}
             duration={500}
-            to='AboutMe'
+            to='contactMe'
             className='btn btn-outline-primary' 
             >
 
-            Contact Me
+            Contate-Me
             </Link>
         </nav>
     );

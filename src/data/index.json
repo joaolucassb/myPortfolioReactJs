@@ -2,27 +2,89 @@
     "skills": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
+            "src": "./img/js.png",
+            "title": "JavaScript ES6",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
+            "src": "./img/nodejs.png",
+            "title": "Node.Js",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
+            "src": "./img/typescript.png",
+            "title": "TypeScript",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "WebFlow Development",
+            "src": "./img/react.png",
+            "title": "React.Js",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "5",
+            "src": "./img/nextjs.png",
+            "title": "Next.Js",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "6",
+            "src": "./img/git.png",
+            "title": "Git",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "7",
+            "src": "./img/sql.png",
+            "title": "SQL",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "8",
+            "src": "./img/html-5.png",
+            "title": "HTML5",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "9",
+            "src": "./img/css-3.png",
+            "title": "CSS3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "10",
+            "src": "./img/api.png",
+            "title": "API Rest",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Supenmdisse varius eim in eros elementum tristique"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/blog-next.png",
+            "title": "Blog Next",
+            "description": "Blog desenvolvido com as tecnologias Next.JS para renderização de páginas estáticas, strapi Api, TypeScript, React e styleComponents",
+            "link": "View In Github",
+            "href": "https://github.com/joaolucassb/blog-next"
+        },
+        {
+            "id": "2",
+            "src": "./img/pomodoro-app.png",
+            "title": "Pomodoro App",
+            "description": "Contador de tempo de atividade utilizando técnica do Pomodoro desenvolvido com tecnologias Typescript, React.js, ReactHooks, CSS3 e HTML5",
+            "link": "View In Github",
+            "href": "https://github.com/joaolucassb/pomodoro-app"
+        },
+        {
+            "id": "3",
+            "src": "./img/todolist.png",
+            "title": "ToDo List React",
+            "description": "Aplicação web para criar e listar taferas, permitindo altera-las ou exclui-las como desejar. Tecnologias: React.js, CSS3 e HTML5",
+            "link": "View In Github",
+            "href": "https://github.com/joaolucassb/toDoListReact"
         }
     ]
 }
